@@ -1,0 +1,7 @@
+# Video files for testing
+*.mkv
+*.mp4
+*.avi
+*.mov
+*.mv4
+.DS_Store
