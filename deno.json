@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "description": "Script to select which audio tracks to keep in a video file and remove the rest.",
+    "license": "GPL-3.0-only",
+    "author": "",
+    "main": "src/audio-fix.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/supernaut/audio-fix.git"
+    },
+    "bugs": {
+        "url": "https://github.com/supernaut/audio-fix/issues"
+    },
+    "homepage": "https://github.com/supernaut/audio-fix#readme",
+    "tasks": {
+        "lint": "deno lint",
+        "run": "deno run src/select-audio-tracks.ts"
+    }
+}

@@ -5,3 +5,4 @@
 *.mov
 *.mv4
 .DS_Store
+node_modules
