@@ -1,5 +1,5 @@
 import { Choice } from "jsr:@sallai/ask";
-import { type MkvmergeTrack } from "../types/mkvmerge-identification-output.ts";
+import { type MkvmergeTrack } from "../../types/mkvmerge-identification-output.ts";
 import { getChannels } from "./get-channels.ts";
 import { getLanguage } from "./get-language.ts";
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env -S deno run --allow-env --allow-read --allow-write --allow-run
 import * as path from "jsr:@std/path";
-import { getAudioChoies } from "./get-audio-choices.ts";
-import { trimAudioTracks } from "./trim-audio-tracks.ts";
-import { pickAudioTracks } from "./pick-audio-tracks.ts";
+import { getAudioChoies } from "./lib/get-audio-choices.ts";
+import { trimAudioTracks } from "./lib/trim-audio-tracks.ts";
+import { pickAudioTracks } from "./lib/pick-audio-tracks.ts";
 
 // Values needed for error handling
 const errorStyle = "color: red";

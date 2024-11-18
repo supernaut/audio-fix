@@ -1,12 +1,11 @@
 import * as path from "jsr:@std/path";
-import { MkvmergeIdentificationOutput } from "../types/mkvmerge-identification-output.ts";
+import { MkvmergeIdentificationOutput } from "../../types/mkvmerge-identification-output.ts";
 import { Spinner } from "jsr:@std/cli/unstable-spinner";
 import { Choice } from "jsr:@sallai/ask";
 import { getAllMkvMergeTracks } from "./get-all-mkvmerge-tracks.ts";
 
-import { emphasisStyle, errorStyle } from "./styles.ts";
-import { FfprobeOutput } from "../types/ffprobe-output.ts";
-import { getLanguage } from "./get-language.ts";
+import { emphasisStyle, errorStyle } from "../styles.ts";
+import { FfprobeOutput } from "../../types/ffprobe-output.ts";
 import { getAllFfprobeTracks } from "./get-all-ffprobe-tracks.ts";
 
 export async function getAudioChoies(input: string): Promise<Choice[]> {

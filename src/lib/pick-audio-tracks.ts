@@ -1,5 +1,5 @@
 import { Ask, Choice } from "jsr:@sallai/ask";
-import { errorStyle } from "./styles.ts";
+import { errorStyle } from "../styles.ts";
 
 export async function pickAudioTracks(choices: Choice[]): Promise<number[]> {
     const ask = new Ask();

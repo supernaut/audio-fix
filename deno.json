@@ -14,6 +14,8 @@
     "homepage": "https://github.com/supernaut/audio-fix#readme",
     "tasks": {
         "lint": "deno lint",
-        "run": "deno run src/select-audio-tracks.ts"
+        "run": "deno run src/select-audio-tracks.ts",
+        "compile": "deno compile --allow-env --allow-read --allow-write --allow-run --unstable --output dist/trim-audio-tracks src/main.ts",
+        "compile:linux": "deno compile --allow-env --allow-read --allow-write --allow-run --unstable --output dist/linux/trim-audio-tracks --target x86_64-unknown-linux-gnu src/main.ts"
     }
 }

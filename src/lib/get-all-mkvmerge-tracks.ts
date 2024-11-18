@@ -1,5 +1,5 @@
 import { Choice } from "jsr:@sallai/ask";
-import { MkvmergeIdentificationOutput } from "../types/mkvmerge-identification-output.ts";
+import { MkvmergeIdentificationOutput } from "../../types/mkvmerge-identification-output.ts";
 import { getMkvMergeTrack } from "./get-mkvmerge-track.ts";
 
 function getTracks(

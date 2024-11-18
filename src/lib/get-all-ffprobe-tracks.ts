@@ -1,6 +1,6 @@
 import { Choice } from "jsr:@sallai/ask";
-import { FfprobeOutput } from "../types/ffprobe-output.ts";
-import { getFfprobeTrack } from "./get-ffprobe-track.ts";
+import { FfprobeOutput } from "../../types/ffprobe-output.ts";
+import { getFfprobeTrack } from "../lib/get-ffprobe-track.ts";
 
 function getTracks(
     input: FfprobeOutput,

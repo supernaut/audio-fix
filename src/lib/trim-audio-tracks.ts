@@ -1,12 +1,8 @@
 import * as path from "jsr:@std/path";
-import { MkvmergeIdentificationOutput } from "../types/mkvmerge-identification-output.ts";
 import { Spinner } from "jsr:@std/cli/unstable-spinner";
-import { getMkvMergeTrack } from "./get-mkvmerge-track.ts";
-import { Ask, CheckboxOpts, Choice } from "jsr:@sallai/ask";
-import { getAllMkvMergeTracks } from "./get-all-mkvmerge-tracks.ts";
 import { filesize } from "npm:filesize";
 import prettyMilliseconds from "npm:pretty-ms";
-import { emphasisStyle, errorStyle } from "./styles.ts";
+import { errorStyle } from "../styles.ts";
 
 export async function trimAudioTracks(
     input: string,

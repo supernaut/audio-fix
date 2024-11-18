@@ -1,5 +1,5 @@
 import { Choice } from "jsr:@sallai/ask";
-import { type FfprobeStream } from "../types/ffprobe-output.ts";
+import { type FfprobeStream } from "../../types/ffprobe-output.ts";
 import { getChannels } from "./get-channels.ts";
 import { getLanguage } from "./get-language.ts";
 
