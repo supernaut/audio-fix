@@ -16,5 +16,9 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "denoland.vscode-deno"
     },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
     "deno.enable": true
 }
